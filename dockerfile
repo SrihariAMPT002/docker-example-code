@@ -1,6 +1,6 @@
 FROM node:latest
 
-WORKDIR /usr/src/app
+WORKDIR /var/www/html/dockerCI-CD/docker-example-code
 
 COPY package.json ./
 
